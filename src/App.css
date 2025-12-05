@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.hero {
+  padding: 80px;
+  background: linear-gradient(to right, #000428, #004e92);
+  color: white;
+}
+
+.btn {
+  background: #25d366;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+section {
+  padding: 60px 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.grid div {
+  background: #f3f3f3;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.page {
+  padding: 80px 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.contact-form input,
+.contact-form select {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.contact-form button {
+  background: black;
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+}
